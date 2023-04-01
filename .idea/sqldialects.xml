@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/6b46f2a9-222e-4852-be57-4c5e4cb9568e/console.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/ConnectToMySQL.java" dialect="GenericSQL" />
+  </component>
+</project>
