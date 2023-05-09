@@ -24,21 +24,7 @@ public class ConnectToMySQL {
                 System.out.println(name + " | " + CountryCode + " | " + district + " | " + population);
             }
 
-        } catch(SQLException se) {
-            se.printStackTrace();
-        } catch(Exception e) {
-            e.printStackTrace();
-        } finally {
-            try {
-                if(stmt != null)
-                    stmt.close();
-            } catch(SQLException se2) {
-            }
-            try {
-                if(conn != null)
-                    conn.close();
-            } catch(SQLException se) {
-                se.printStackTrace();
+ //Feature Exchange - Add Graphical User Console
             }
         }
     }
